@@ -6,7 +6,7 @@ import (
 
 func main() {
 	var n int
-	fmt.Print("Ingresa un número entero positivo: ")
+	fmt.Println("Ingresa un número entero positivo: ")
 	fmt.Scan(&n)
 
 	for i := 1; i <= n; i++ {
