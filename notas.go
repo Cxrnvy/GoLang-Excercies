@@ -8,7 +8,7 @@ func main() {
 	var notas [6][4]float64
 	var sumaClase float64
 
-	fmt.Println("=== INGRESO DE NOTAS ===")
+	fmt.Println("INGRESO DE NOTAS")
 
 	for i := 0; i < 6; i++ {
 		fmt.Printf("\nEstudiante %d\n", i+1)
